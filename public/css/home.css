@@ -1,0 +1,39 @@
+.hero {
+  background-color: #F6F6F6;
+  padding: 4rem 6rem;
+  font-family: "Poppins", sans-serif;
+}
+.hero h1 {
+  color: #323232;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0;
+  font-weight: 600;
+}
+.hero p {
+  font-size: 14px;
+}
+
+.trending-products {
+  padding: 0 6rem;
+}
+.trending-products h2 {
+  text-align: center;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+.trending-products h2 span {
+  background-color: #ffffff;
+  padding: 0 30px;
+  display: inline-block;
+  position: relative;
+}
+.trending-products h2::before {
+  content: "";
+  width: 100%;
+  top: 15px;
+  height: 1px;
+  display: block;
+  background-color: rgb(225, 225, 225);
+  position: absolute;
+}
