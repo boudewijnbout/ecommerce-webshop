@@ -15,3 +15,8 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index']);
+
+// Products
+Route::get('/products', function() {
+    return view('products');
+});

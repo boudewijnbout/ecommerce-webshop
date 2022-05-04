@@ -9,10 +9,10 @@
     <nav>
         <ul>
             <li>
-                <a href="">Home</a>
+                <a href="/">Home</a>
             </li>
             <li>
-                <a href="">Producten</a>
+                <a href="/products">Producten</a>
             </li>
             <li>
                 <a href="">Categorieën</a>
