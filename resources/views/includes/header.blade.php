@@ -23,6 +23,9 @@
             <li>
                 <a href="">Contact</a>
             </li>
+            <li>
+                <a href="">Ingelogd als: {{ Auth::user()->name }}</a>
+            </li>
         </ul>
     </nav>
 </header>
